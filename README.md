@@ -1,3 +1,3 @@
 # Bangkit---Capstone
 # API's Documentation
-## GET
+## GET get-eggs-by-phase/{phase}
