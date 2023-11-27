@@ -25,7 +25,7 @@ Example Request // Contoh Requestnya:
 ```
 GET /get-eggs-by-phase/Embrio
 ```
-
+Example Response // Contoh Responsenya: 
 ```
 {
     "status": "success",
@@ -68,3 +68,10 @@ GET /get-eggs-by-phase/Embrio
         }
     ]
 }
+```
+## GET /get-eggs-by-date/{date}
+Retrieves a Egg data by its Date // Mengambil data Telur berdasarkan Tanggal diambil-nya
+
+Parameters :
+- `detectionTimestamp`
+
