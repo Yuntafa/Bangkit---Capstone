@@ -11,7 +11,7 @@ The response will contain the following fields // Responnya bakal seperti dibawa
 - `status` (string): The status of the response ("success" or "fail"). // Status respon berhasil atau gagal
 - `eggs` (object): The Eggs information with the specified phase, including the following details // Informasi telur dengan fase yang ditentukan, termasuk detail berikut :
     - `id` (number): The ID of the Egg // ID Telur.
-    - `additionalInfo` (string): To add additional information by the user // Untuk menambahkan keterangan tambahan oleh user.
+    - `additionalInfo` (string): To add additional information by the user // Untuk menambahkan keterangan tambahan oleh user 
     - `description` (string): The description of the Egg // Deskrpisi Telur.
     - `detectionTimestamp` (timestamp): Detection time // Waktu deteksi.
     - `fertilization` (boolean): Fertil or Infertil // Fertil atau Infertil.
