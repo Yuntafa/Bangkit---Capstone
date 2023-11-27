@@ -20,5 +20,48 @@ The response will contain the following fields // Responnya bakal seperti dibawa
     - `phasse` (string): Phase of the eggs // Fase dari telurnya
     - `userId` (string): User Id of the egg data // Id User dari data telurnya
 
+const copyCodeBlock = require('@pickra/copy-code-block');
 Example Request // Contoh Requestnya: 
 ```` GET /get-eggs-by-phase/Embrio ````
+import anHtmlFile from './anHtmlFile.html';
+copyCodeBlock({
+    "status": "success",
+    "eggs": [
+        {
+            "id": "detection-id",
+            "additionalInfo": "keterangan_tambahan",
+            "description": "deskripsi hasil deteksi",
+            "detectionTimestamp": {
+                "_seconds": 1700773200,
+                "_nanoseconds": 337000000
+            },
+            "fertilization": "Fertil",
+            "imageRef": {
+                "_firestore": {
+                    "projectId": "avid-lock-405816"
+                },
+                "_path": {
+                    "segments": [
+                        "Egg-Images",
+                        "egg-images-id"
+                    ]
+                },
+                "_converter": {}
+            },
+            "labelRef": {
+                "_firestore": {
+                    "projectId": "avid-lock-405816"
+                },
+                "_path": {
+                    "segments": [
+                        "labels",
+                        "label-id"
+                   ]
+                },
+                "_converter": {}
+            },
+            "phase": "Embrio",
+            "userId": "[user-id]"
+        }
+    ]
+});
