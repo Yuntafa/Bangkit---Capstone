@@ -21,4 +21,4 @@ The response will contain the following fields // Responnya bakal seperti dibawa
     - `userId` (string): User Id of the egg data // Id User dari data telurnya
 
 Example Request // Contoh Requestnya: 
-#        GET /get-eggs-by-phase/Embrio
+``` GET /get-eggs-by-phase/Embrio ```
