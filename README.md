@@ -22,8 +22,12 @@ The response will contain the following fields // Responnya bakal seperti dibawa
 
 
 Example Request // Contoh Requestnya: 
-```` GET /get-eggs-by-phase/Embrio ````
-''' {
+```
+GET /get-eggs-by-phase/Embrio
+```
+
+```
+{
     "status": "success",
     "eggs": [
         {
@@ -63,4 +67,4 @@ Example Request // Contoh Requestnya:
             "userId": "[user-id]"
         }
     ]
-} ```
+}
