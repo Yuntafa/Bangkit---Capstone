@@ -11,5 +11,6 @@ The response will contain the following fields:
 - `status` (string): The status of the response ("success" or "fail").
 - `phase` (object): The place information with the specified ID, including the following details :
     - `id` (number): The ID of the Egg.
-additionalInfo (string): Untuk menambahkan catatan tambahan oleh user
-description (string): The description of the Egg
+    - `additionalInfo` (string): Untuk menambahkan catatan tambahan oleh user
+    - `description` (string): The description of the Egg
+    - `detectionTimestamp` (
