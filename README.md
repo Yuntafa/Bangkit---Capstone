@@ -20,11 +20,10 @@ The response will contain the following fields // Responnya bakal seperti dibawa
     - `phasse` (string): Phase of the eggs // Fase dari telurnya
     - `userId` (string): User Id of the egg data // Id User dari data telurnya
 
-const copyCodeBlock = require('@pickra/copy-code-block');
+
 Example Request // Contoh Requestnya: 
 ```` GET /get-eggs-by-phase/Embrio ````
-import anHtmlFile from './anHtmlFile.html';
-copyCodeBlock({
+''' {
     "status": "success",
     "eggs": [
         {
@@ -64,4 +63,4 @@ copyCodeBlock({
             "userId": "[user-id]"
         }
     ]
-});
+} ```
