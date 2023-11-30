@@ -75,7 +75,7 @@ Retrieves a Egg data by its Date // Mengambil data Telur berdasarkan Tanggal dia
 Parameters :
 - `detectionTimestamp` path parameter : Date of the egg // Tanggal Telur diambil
 
-  Response :
+Response :
 The response will contain the following fields // Responnya bakal seperti dibawah :
 - `status` (string): The status of the response ("success" or "fail"). // Status respon berhasil atau gagal
 - `eggs` (object): The Eggs information with the specified phase, including the following details // Informasi telur dengan fase yang ditentukan, termasuk detail berikut :
