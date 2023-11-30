@@ -92,7 +92,7 @@ The response will contain the following fields // Responnya bakal seperti dibawa
 
 Example Request // Contoh Requestnya: 
 ```
-GET /get-eggs-by-phase/Embrio
+GET /get-eggs-by-date/2023-12-14
 ```
 Example Response // Contoh Responsenya: 
 ```
